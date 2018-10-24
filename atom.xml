@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sghyxp.github.io/"/>
-  <updated>2018-10-24T13:23:36.629Z</updated>
+  <updated>2018-10-24T13:25:40.730Z</updated>
   <id>https://sghyxp.github.io/</id>
   
   <author>
@@ -21,12 +21,14 @@
     <link href="https://sghyxp.github.io/2018/10/24/ffff/"/>
     <id>https://sghyxp.github.io/2018/10/24/ffff/</id>
     <published>2018-10-24T13:23:36.000Z</published>
-    <updated>2018-10-24T13:23:36.629Z</updated>
+    <updated>2018-10-24T13:25:40.730Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="测试" scheme="https://sghyxp.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -35,12 +37,14 @@
     <link href="https://sghyxp.github.io/2018/10/24/eeeee/"/>
     <id>https://sghyxp.github.io/2018/10/24/eeeee/</id>
     <published>2018-10-24T13:08:45.000Z</published>
-    <updated>2018-10-24T13:08:45.808Z</updated>
+    <updated>2018-10-24T13:26:17.417Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="文学" scheme="https://sghyxp.github.io/tags/%E6%96%87%E5%AD%A6/"/>
     
   </entry>
   
@@ -49,7 +53,7 @@
     <link href="https://sghyxp.github.io/2018/10/24/%E6%B5%8B%E8%AF%952/"/>
     <id>https://sghyxp.github.io/2018/10/24/测试2/</id>
     <published>2018-10-24T10:17:21.000Z</published>
-    <updated>2018-10-24T10:17:38.397Z</updated>
+    <updated>2018-10-24T13:25:53.491Z</updated>
     
     <content type="html"><![CDATA[<p>看看测试效果啦!</p>]]></content>
     
@@ -64,6 +68,8 @@
     </summary>
     
     
+      <category term="测试" scheme="https://sghyxp.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
   </entry>
   
   <entry>
@@ -71,7 +77,7 @@
     <link href="https://sghyxp.github.io/2018/10/24/%E6%B5%8B%E8%AF%951/"/>
     <id>https://sghyxp.github.io/2018/10/24/测试1/</id>
     <published>2018-10-24T10:16:38.000Z</published>
-    <updated>2018-10-24T10:17:09.325Z</updated>
+    <updated>2018-10-24T13:26:09.276Z</updated>
     
     <content type="html"><![CDATA[<p>这是一个测试文件!</p>]]></content>
     
@@ -85,6 +91,8 @@
     
     </summary>
     
+    
+      <category term="日记" scheme="https://sghyxp.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
