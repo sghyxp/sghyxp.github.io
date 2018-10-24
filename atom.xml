@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sghyxp.github.io/"/>
-  <updated>2018-10-22T14:16:39.948Z</updated>
+  <updated>2018-10-24T10:17:38.397Z</updated>
   <id>https://sghyxp.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试2</title>
+    <link href="https://sghyxp.github.io/2018/10/24/%E6%B5%8B%E8%AF%952/"/>
+    <id>https://sghyxp.github.io/2018/10/24/测试2/</id>
+    <published>2018-10-24T10:17:21.000Z</published>
+    <updated>2018-10-24T10:17:38.397Z</updated>
+    
+    <content type="html"><![CDATA[<p>看看测试效果啦!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;看看测试效果啦!&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试1</title>
+    <link href="https://sghyxp.github.io/2018/10/24/%E6%B5%8B%E8%AF%951/"/>
+    <id>https://sghyxp.github.io/2018/10/24/测试1/</id>
+    <published>2018-10-24T10:16:38.000Z</published>
+    <updated>2018-10-24T10:17:09.325Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一个测试文件!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是一个测试文件!&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
