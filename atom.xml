@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sghyxp.github.io/"/>
-  <updated>2018-10-26T09:43:35.102Z</updated>
+  <updated>2018-10-26T09:55:18.794Z</updated>
   <id>https://sghyxp.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试文档</title>
+    <link href="https://sghyxp.github.io/2018/10/26/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/"/>
+    <id>https://sghyxp.github.io/2018/10/26/测试文档/</id>
+    <published>2018-10-26T09:50:52.000Z</published>
+    <updated>2018-10-26T09:55:18.794Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇测试文档!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是一篇测试文档!&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="其他" scheme="https://sghyxp.github.io/categories/other/"/>
+    
+    
+      <category term="测试" scheme="https://sghyxp.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>Test</title>
@@ -87,25 +113,11 @@
   </entry>
   
   <entry>
-    <title>12321</title>
-    <link href="https://sghyxp.github.io/2018/10/26/12321/"/>
-    <id>https://sghyxp.github.io/2018/10/26/12321/</id>
-    <published>2018-10-26T08:58:40.000Z</published>
-    <updated>2018-10-26T08:58:40.732Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>2222</title>
     <link href="https://sghyxp.github.io/2018/10/25/2222/"/>
     <id>https://sghyxp.github.io/2018/10/25/2222/</id>
     <published>2018-10-25T14:53:05.000Z</published>
-    <updated>2018-10-26T09:26:25.652Z</updated>
+    <updated>2018-10-26T09:45:49.630Z</updated>
     
     <content type="html"><![CDATA[<p>23423423cwrfds vsf<br>sdafasf a</p><p>##sdfe fe</p><p>#fdfg </p><h1 id="sdfsdg"><a href="#sdfsdg" class="headerlink" title="sdfsdg"></a>sdfsdg</h1><p>FSFDS#@# sf</p><p>$ 覆盖掉fgs# 地方a</p><h2 id="辅导费gs"><a href="#辅导费gs" class="headerlink" title="辅导费gs"></a>辅导费gs</h2>]]></content>
     
@@ -124,7 +136,7 @@
       <category term="编程" scheme="https://sghyxp.github.io/categories/programming/"/>
     
     
-      <category term="日记 , 整理" scheme="https://sghyxp.github.io/tags/%E6%97%A5%E8%AE%B0-%E6%95%B4%E7%90%86/"/>
+      <category term="日记" scheme="https://sghyxp.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
@@ -133,7 +145,7 @@
     <link href="https://sghyxp.github.io/2018/10/24/6666/"/>
     <id>https://sghyxp.github.io/2018/10/24/6666/</id>
     <published>2018-10-24T14:08:53.000Z</published>
-    <updated>2018-10-26T09:26:43.997Z</updated>
+    <updated>2018-10-26T09:45:36.773Z</updated>
     
     <summary type="html">
     
@@ -142,7 +154,7 @@
       <category term="其他" scheme="https://sghyxp.github.io/categories/other/"/>
     
     
-      <category term="日记, 其他" scheme="https://sghyxp.github.io/tags/%E6%97%A5%E8%AE%B0-%E5%85%B6%E4%BB%96/"/>
+      <category term="日记" scheme="https://sghyxp.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
