@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sghyxp.github.io/"/>
-  <updated>2018-10-26T08:58:40.732Z</updated>
+  <updated>2018-10-26T09:22:18.596Z</updated>
   <id>https://sghyxp.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日记</title>
+    <link href="https://sghyxp.github.io/2018/10/26/%E6%97%A5%E8%AE%B0/"/>
+    <id>https://sghyxp.github.io/2018/10/26/日记/</id>
+    <published>2018-10-26T09:21:27.000Z</published>
+    <updated>2018-10-26T09:22:18.596Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天写了一篇日记</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天写了一篇日记&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="https://sghyxp.github.io/categories/life/"/>
+    
+    
+      <category term="日记" scheme="https://sghyxp.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>12321</title>
