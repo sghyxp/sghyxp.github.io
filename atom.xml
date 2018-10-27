@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sghyxp.github.io/"/>
-  <updated>2018-10-27T12:05:02.000Z</updated>
+  <updated>2018-10-27T12:48:24.000Z</updated>
   <id>https://sghyxp.github.io/</id>
   
   <author>
@@ -17,25 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>傻不傻</title>
+    <link href="https://sghyxp.github.io/2018/10/27/%E5%82%BB%E4%B8%8D%E5%82%BB/"/>
+    <id>https://sghyxp.github.io/2018/10/27/傻不傻/</id>
+    <published>2018-10-27T12:48:24.000Z</published>
+    <updated>2018-10-27T12:48:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>你是不是傻!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;你是不是傻!&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="日记" scheme="https://sghyxp.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="手机" scheme="https://sghyxp.github.io/tags/%E6%89%8B%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>看看</title>
     <link href="https://sghyxp.github.io/2018/10/27/%E7%9C%8B%E7%9C%8B/"/>
     <id>https://sghyxp.github.io/2018/10/27/看看/</id>
     <published>2018-10-27T12:05:02.000Z</published>
     <updated>2018-10-27T12:05:02.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>123456</title>
-    <link href="https://sghyxp.github.io/2018/10/27/123456/"/>
-    <id>https://sghyxp.github.io/2018/10/27/123456/</id>
-    <published>2018-10-27T04:05:36.000Z</published>
-    <updated>2018-10-27T04:05:36.000Z</updated>
     
     <summary type="html">
     
@@ -64,62 +76,6 @@
     <id>https://sghyxp.github.io/2018/10/27/9/</id>
     <published>2018-10-27T03:52:25.000Z</published>
     <updated>2018-10-27T03:52:25.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>88333333</title>
-    <link href="https://sghyxp.github.io/2018/10/27/88333333/"/>
-    <id>https://sghyxp.github.io/2018/10/27/88333333/</id>
-    <published>2018-10-27T03:33:36.000Z</published>
-    <updated>2018-10-27T03:33:36.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>88333333333</title>
-    <link href="https://sghyxp.github.io/2018/10/27/88333333333/"/>
-    <id>https://sghyxp.github.io/2018/10/27/88333333333/</id>
-    <published>2018-10-27T03:29:33.000Z</published>
-    <updated>2018-10-27T03:29:33.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>88333333333333</title>
-    <link href="https://sghyxp.github.io/2018/10/27/88333333333333/"/>
-    <id>https://sghyxp.github.io/2018/10/27/88333333333333/</id>
-    <published>2018-10-27T03:28:42.000Z</published>
-    <updated>2018-10-27T03:28:42.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>8833</title>
-    <link href="https://sghyxp.github.io/2018/10/27/8833/"/>
-    <id>https://sghyxp.github.io/2018/10/27/8833/</id>
-    <published>2018-10-27T03:26:11.000Z</published>
-    <updated>2018-10-27T03:26:11.000Z</updated>
     
     <summary type="html">
     
@@ -162,90 +118,6 @@
     <id>https://sghyxp.github.io/2018/10/27/66/</id>
     <published>2018-10-27T03:18:23.000Z</published>
     <updated>2018-10-27T03:18:23.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>55555555</title>
-    <link href="https://sghyxp.github.io/2018/10/27/55555555/"/>
-    <id>https://sghyxp.github.io/2018/10/27/55555555/</id>
-    <published>2018-10-27T03:16:23.000Z</published>
-    <updated>2018-10-27T03:16:23.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>44444</title>
-    <link href="https://sghyxp.github.io/2018/10/27/44444/"/>
-    <id>https://sghyxp.github.io/2018/10/27/44444/</id>
-    <published>2018-10-27T03:13:25.000Z</published>
-    <updated>2018-10-27T03:13:25.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>3333</title>
-    <link href="https://sghyxp.github.io/2018/10/27/3333/"/>
-    <id>https://sghyxp.github.io/2018/10/27/3333/</id>
-    <published>2018-10-27T03:12:25.000Z</published>
-    <updated>2018-10-27T03:12:25.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>222</title>
-    <link href="https://sghyxp.github.io/2018/10/27/222/"/>
-    <id>https://sghyxp.github.io/2018/10/27/222/</id>
-    <published>2018-10-27T03:11:21.000Z</published>
-    <updated>2018-10-27T03:11:21.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>22222223333333</title>
-    <link href="https://sghyxp.github.io/2018/10/27/22222223333333/"/>
-    <id>https://sghyxp.github.io/2018/10/27/22222223333333/</id>
-    <published>2018-10-27T02:58:33.000Z</published>
-    <updated>2018-10-27T02:58:33.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>111111144444</title>
-    <link href="https://sghyxp.github.io/2018/10/27/111111144444/"/>
-    <id>https://sghyxp.github.io/2018/10/27/111111144444/</id>
-    <published>2018-10-27T01:43:07.000Z</published>
-    <updated>2018-10-27T01:43:07.000Z</updated>
     
     <summary type="html">
     
@@ -321,6 +193,32 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>日记</title>
+    <link href="https://sghyxp.github.io/2018/10/26/%E6%97%A5%E8%AE%B0/"/>
+    <id>https://sghyxp.github.io/2018/10/26/日记/</id>
+    <published>2018-10-26T09:21:27.000Z</published>
+    <updated>2018-10-26T09:22:18.596Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天写了一篇日记</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天写了一篇日记&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="https://sghyxp.github.io/categories/life/"/>
+    
+    
+      <category term="日记" scheme="https://sghyxp.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
