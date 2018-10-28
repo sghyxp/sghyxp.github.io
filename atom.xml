@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sghyxp.github.io/"/>
-  <updated>2018-10-27T13:36:00.000Z</updated>
+  <updated>2018-10-28T03:52:39.000Z</updated>
   <id>https://sghyxp.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用GitHub Pages搭建个人博客</title>
+    <link href="https://sghyxp.github.io/2018/10/28/%E4%BD%BF%E7%94%A8GitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://sghyxp.github.io/2018/10/28/使用GitHub-Pages搭建个人博客/</id>
+    <published>2018-10-28T03:52:39.000Z</published>
+    <updated>2018-10-28T03:52:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-GitHub"><a href="#1-GitHub" class="headerlink" title="1.GitHub"></a>1.GitHub</h3><blockquote><p>GitHub是一个共享虚拟主机服务，用于存放使用Git版本控制的软件代码和内容项目(引自维基百科）</p></blockquote><h3 id="2-GitHub-Pages"><a href="#2-GitHub-Pages" class="headerlink" title="2.GitHub Pages"></a>2.GitHub Pages</h3><p>github有一个很有爱的项目，叫做github pages，这个项目是给开发者建立一个私人页面，上面用来分享新颖的想法和自己写的代码.</p><h3 id="3-注册自己的GitHub账号"><a href="#3-注册自己的GitHub账号" class="headerlink" title="3.注册自己的GitHub账号"></a>3.注册自己的GitHub账号</h3><p>首先进入<a href="https://github.com" target="_blank" rel="noopener">Github</a>站点,然后进行注册(此处不做详细说明可自行阅读<a href="https://jingyan.baidu.com/article/455a9950abe0ada167277864.html" target="_blank" rel="noopener">github教程</a>：[1]注册github)</p><h3 id="4-创建仓库"><a href="#4-创建仓库" class="headerlink" title="4.创建仓库"></a>4.创建仓库</h3><p>点击右上角头像左边的➕号按钮,选择<code>New repository</code>新建仓库,如图:</p><p><img src="evernotecid://AB2A3300-3F12-4C1A-B590-2EEDE4343F61/appyinxiangcom/12025006/ENResource/p1232" alt="492eb09a0ad4adc6d3f5780b28aee68b.png"><br><img src="evernotecid://AB2A3300-3F12-4C1A-B590-2EEDE4343F61/appyinxiangcom/12025006/ENResource/p1239" alt="8f2dd61564bb947c337aa88d65f7dccc.png"></p><h3 id="5-设置GitHub-Pages"><a href="#5-设置GitHub-Pages" class="headerlink" title="5.设置GitHub Pages"></a>5.设置GitHub Pages</h3><p>进入设置页面<br><img src="evernotecid://AB2A3300-3F12-4C1A-B590-2EEDE4343F61/appyinxiangcom/12025006/ENResource/p1234" alt="087a49b2064bf7a180436b68032665ed.png"><br><img src="evernotecid://AB2A3300-3F12-4C1A-B590-2EEDE4343F61/appyinxiangcom/12025006/ENResource/p1236" alt="40d3c8ee47eb3f2754b708cca4dda8a8.png"><br>如果仓库名是以:<strong>用户名.github.io</strong>命名, 仓库创建成功后默认开启Github Pages.<br>找到下面选择主题的地方:<br><img src="evernotecid://AB2A3300-3F12-4C1A-B590-2EEDE4343F61/appyinxiangcom/12025006/ENResource/p1237" alt="f0b6a0e14225a9cbb5f32cb261592108.png"><br>选择一个主题,做为GitHub Pages的主题,然后会跳到README.md文件,可以预览博客页面效果:<br><img src="evernotecid://AB2A3300-3F12-4C1A-B590-2EEDE4343F61/appyinxiangcom/12025006/ENResource/p1240" alt="09bd1f5c527aff476c86fd791f079d9f.png"><br><img src="evernotecid://AB2A3300-3F12-4C1A-B590-2EEDE4343F61/appyinxiangcom/12025006/ENResource/p1242" alt="b50f0bfdf553a54d093758678bad00ef.png"><br>不做修改可以直接点击下面的<strong>Commit changes</strong>提交.<br>就可以通过<strong>用户名.github.io</strong>访问自己的博客了.比如:<a href="sghyxp.github.io">sghyxp的博客</a><br>新建的另一个非用户名命名的仓库:<a href="1234.github.io">1234</a>访问结果是404.</p><p>搭建完成的GitHub Pages博客,如:<a href="sghyp.github.io">sghyp</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;1-GitHub&quot;&gt;&lt;a href=&quot;#1-GitHub&quot; class=&quot;headerlink&quot; title=&quot;1.GitHub&quot;&gt;&lt;/a&gt;1.GitHub&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;GitHub是一个共享虚拟主机服务，用于存放使用Git版本控制的软
+      
+    
+    </summary>
+    
+      <category term="GitHub" scheme="https://sghyxp.github.io/categories/GitHub/"/>
+    
+    
+      <category term="GitHub Pages" scheme="https://sghyxp.github.io/tags/GitHub-Pages/"/>
+    
+      <category term="博客" scheme="https://sghyxp.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>娃哈哈</title>
