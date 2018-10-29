@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sghyxp.github.io/"/>
-  <updated>2018-10-29T03:01:32.000Z</updated>
+  <updated>2018-10-29T04:09:20.000Z</updated>
   <id>https://sghyxp.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+GitHub博客添加图片</title>
+    <link href="https://sghyxp.github.io/2018/10/29/hexo-addImg/"/>
+    <id>https://sghyxp.github.io/2018/10/29/hexo-addImg/</id>
+    <published>2018-10-29T04:09:20.000Z</published>
+    <updated>2018-10-29T04:09:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用Hexo +GitHub搭建的个人博客,编辑博客使用的是MarkDown语法,MarkDown语法个人感觉使用不太方便的地方就是关于添加图片的问题</p><p>显示图片的语法格式:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片名](图片路径)</span><br></pre></td></tr></table></figure></p><h5 id="图片可以分为两种"><a href="#图片可以分为两种" class="headerlink" title="图片可以分为两种:"></a>图片可以分为两种:</h5><ul><li>一:网络图片(多有人都可以直接访问)</li><li>二:本地图片(有的MarkDown编辑器直接本地图片直接拖拽,会生成本地的图片路径, 但是这种图片只有在本地能正常看, 到其他地方不能正常显示)</li></ul><h5 id="本地图片解决"><a href="#本地图片解决" class="headerlink" title="本地图片解决:"></a>本地图片解决:</h5><h6 id="1-GitHub做图床"><a href="#1-GitHub做图床" class="headerlink" title="1.GitHub做图床"></a>1.GitHub做图床</h6><p>解决本地图片到其他地方不能正常访问的问题, 这里用GitHub来当图床,可以把图片放到本地blog/source/文件夹里面, 新建了一个img文件夹来存放图片. 需要先部署和生成, 把图片放到github上, 才能通过链接找到.(使用时,先把本地图片拖进img文件夹下, 找到对应的路径地址,在博客正文中引用图片路径, 发布到GitHub上,就可以正常浏览)<br>路径地址:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://sghyxp.github.io/img/base_img/head_bg.jpg</span><br></pre></td></tr></table></figure></p><p>这种方法可以支持在其他地方正常浏览,缺点是每次都要将图片拖拽到指定文件夹下,引用路径发布后才可以正常浏览</p><h6 id="2-安装上传本地图片的插件"><a href="#2-安装上传本地图片的插件" class="headerlink" title="2.安装上传本地图片的插件"></a>2.安装上传本地图片的插件</h6><p>1 把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</p><p>2 在你的hexo目录下执行这样一句话npm install hexo-asset-image –save，这是下载安装一个可以上传本地图片的插件，来自dalao：dalao的git</p><p>3 等待一小段时间后，再运行hexo n “xxxx”来生成md博文时，/source/_posts文件夹内除了xxxx.md文件还有一个同名的文件夹</p><p>Second</p><p>4 最后在xxxx.md中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![你想输入的替代文字](xxxx/图片名.jpg)</span><br></pre></td></tr></table></figure></p><p>注意： xxxx是这个md文件的名字，也是同名文件夹的名字。只需要有文件夹名字即可，不需要有什么绝对路径。你想引入的图片就只需要放入xxxx这个文件夹内就好了，很像引用相对路径。</p><p>比较坑,这种方法尝试过程中, 安装插件后,导致node的依赖出错, 不能进行正常的 hexo clean, hexo g -d, 所以放弃了这种方式.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;使用Hexo +GitHub搭建的个人博客,编辑博客使用的是MarkDown语法,MarkDown语法个人感觉使用不太方便的地方就是关于添加图片的问题&lt;/p&gt;
+&lt;p&gt;显示图片的语法格式:&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://sghyxp.github.io/categories/Hexo/"/>
+    
+    
+      <category term="博客" scheme="https://sghyxp.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="图片" scheme="https://sghyxp.github.io/tags/%E5%9B%BE%E7%89%87/"/>
+    
+      <category term="Hexo" scheme="https://sghyxp.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo主题</title>
@@ -42,9 +72,9 @@
     
       <category term="博客" scheme="https://sghyxp.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="主题" scheme="https://sghyxp.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
-    
       <category term="Hexo" scheme="https://sghyxp.github.io/tags/Hexo/"/>
+    
+      <category term="主题" scheme="https://sghyxp.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
