@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sghyxp.github.io/about/index.html</loc>
+    
+    <lastmod>2018-10-29T06:07:07.335Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://sghyxp.github.io/2018/10/29/hexo-addImg/</loc>
     
     <lastmod>2018-10-29T04:09:20.000Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://sghyxp.github.io/2018/10/28/GitHub-Pages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2018-10-28T04:02:05.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sghyxp.github.io/about/index.html</loc>
-    
-    <lastmod>2018-10-27T14:26:51.383Z</lastmod>
     
   </url>
   
