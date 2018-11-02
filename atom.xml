@@ -45,7 +45,7 @@
     <published>2018-10-29T07:18:54.000Z</published>
     <updated>2018-10-29T07:18:54.000Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>Gitalk</strong>：是一个基于 <strong>Github Issue</strong> 和 <strong>Preact</strong> 开发的评论插件, 实际上就是在issue上提问题发表，之前还有个类似的gitment，不过已经比较久没维护了。</p><h5 id="优点"><a href="#优点" class="headerlink" title="优点:"></a>优点:</h5><ul><li>纯客户端组件，无 Server 端</li><li><p>使用 Github 登录，所有评论数据存储为 Github Issue</p></li><li><p>支持多语言 [en, zh-CN, zh-TW],特别是<strong>MarkDown</strong></p></li><li>支持预览评论(主要是针对MarkDown)</li><li>类 Facebook 的无干扰模式（设置 distractionFreeMode 为 true 开启）</li><li>快捷键提交评论 （ cmd|ctrl + enter ）</li><li>利用 Github V4 GraphQL API 实现的评论排序（需要登陆）</li></ul><h5 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h5><ul><li>仅支持GitHub账号登录</li></ul><p>参考:<br><a href="https://www.jianshu.com/p/b4ca8e7c7980" target="_blank" rel="noopener">集成gitalk会遇到的问题</a><br><a href="https://www.jianshu.com/p/78c64d07124d" target="_blank" rel="noopener">博客添加gitalk</a></p>]]></content>
+    <content type="html"><![CDATA[<p><strong>Gitalk</strong>：是一个基于 <strong>Github Issue</strong> 和 <strong>Preact</strong> 开发的评论插件, 实际上就是在issue上提问题发表，之前还有个类似的gitment，不过已经比较久没维护了。</p><h5 id="优点"><a href="#优点" class="headerlink" title="优点:"></a>优点:</h5><ul><li>纯客户端组件，无 Server 端</li><li><p>使用 Github 登录，所有评论数据存储为 Github Issue</p></li><li><p>支持多语言 [en, zh-CN, zh-TW],特别是<strong>MarkDown</strong></p></li><li>支持预览评论(主要是针对MarkDown)</li><li>类 Facebook 的无干扰模式（设置 distractionFreeMode 为 true 开启）</li><li>快捷键提交评论 （ cmd|ctrl + enter ）</li><li>利用 Github V4 GraphQL API 实现的评论排序（需要登陆）</li></ul><h5 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h5><ul><li>仅支持GitHub账号登录</li></ul><!--参考:--><!--[集成gitalk会遇到的问题](https://www.jianshu.com/p/b4ca8e7c7980)--><!--[博客添加gitalk](https://www.jianshu.com/p/78c64d07124d)-->]]></content>
     
     <summary type="html">
     
@@ -154,32 +154,6 @@
       <category term="Hexo" scheme="https://sghyxp.github.io/tags/Hexo/"/>
     
       <category term="主题" scheme="https://sghyxp.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo+GitHub搭建原理</title>
-    <link href="https://sghyxp.github.io/2018/10/28/Hexo-GitHub%E6%90%AD%E5%BB%BA%E5%8E%9F%E7%90%86/"/>
-    <id>https://sghyxp.github.io/2018/10/28/Hexo-GitHub搭建原理/</id>
-    <published>2018-10-28T15:34:28.000Z</published>
-    <updated>2018-10-28T15:34:28.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>[TOC]</p><h2 id="githubPages-hexo搭建博客的原理"><a href="#githubPages-hexo搭建博客的原理" class="headerlink" title="githubPages+hexo搭建博客的原理"></a>githubPages+hexo搭建博客的原理</h2><blockquote><p>先来了解几个概念：</p></blockquote><h2 id="关键词：github-pages"><a href="#关键词：github-pages" class="headerlink" title="关键词：github pages"></a>关键词：github pages</h2><p>github是项目托管网站，列出了项目的源文件，所以github 有一个pages功能，可以自定义主页，用来代替默认的列出源列表的这个页面。github pages 是github提供给用户用来展示个人或者项目主页的静态网页系统。每个用户都可以使用自己的github项目创建，上传静态页面的html文件，github会帮你自动更新你的页面。github Pages可以被认为是用户编写的、托管在github上的静态网页。</p><h3 id="GitHub-Pages-官方文档"><a href="#GitHub-Pages-官方文档" class="headerlink" title="GitHub Pages 官方文档:"></a>GitHub Pages 官方文档:</h3><ol><li><p><a href="https://pages.github.com/" target="_blank" rel="noopener">https://pages.github.com/</a></p></li><li><p><a href="http://help.github.com/pages" target="_blank" rel="noopener">http://help.github.com/pages</a></p></li></ol><p>使用方式：</p><p>使用个人或组织页面，需要先创建一个和你的账号同名的仓库，比如我的github账号是sghyxp，那么我需要创建一个名为sghyxp.github.io的repo，然后在master上提交你的项目代码，这样就可以通过网址：<a href="http://sghyxp.github.io来访问我的个人博客。" target="_blank" rel="noopener">http://sghyxp.github.io来访问我的个人博客。</a></p><h2 id="关键词：hexo"><a href="#关键词：hexo" class="headerlink" title="关键词：hexo"></a>关键词：hexo</h2><p>hexo是基于node环境，所以你需要先安装node，进行一些操作需要用到命令行，所以建议大家直接装一个git bash（mac也有命令），在该环境下，您可以直接用上面提到的命令来安装Node.js。windows下打开它的方法很简单，在任意位置单击右键，选择“GitBash Here”即可。由于Hexo的很多操作都涉及到命令行，您可以考虑始终使用Git Bash来进行操作。 </p><h2 id="关键词：github"><a href="#关键词：github" class="headerlink" title="关键词：github"></a>关键词：github</h2><p>之前步骤中在Github上创建的那个个人项目的repo（sghyxp.github.io）一个最大的特点就是其master中的html静态文件，可以通过链接http:// .github.io来直接访问。<br>Hexo -g 会生成一个静态网站（第一次会生成一个public目录），这个静态文件可以直接访问。 需要将hexo生成的静态网站，提交(git commit)到github上。 </p><h2 id="关键词：node-js"><a href="#关键词：node-js" class="headerlink" title="关键词：node.js"></a>关键词：node.js</h2><p>简单的说 Node.js 就是运行在服务端的 JavaScript。</p><p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。</p><p>Node.js是一个事件驱动I/O服务端<strong>JavaScript</strong>环境，基于Google的<strong>V8引擎</strong>，V8引擎执行Javascript的速度非常快，性能非常好。</p><p>实际意义就是就是既能写前端又能写后端代码。之前超火的一个js项目。目前最多的是用node写中间件。</p><p>在本项目中的意义是，<strong>利用依赖于node的前台模板swig文件渲染数据。</strong></p><h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a><strong>总结</strong>：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: 创建new xx.md文件:&gt;https://www.baidu.com</span><br><span class="line">op=&gt;operation: 根据node的前端模板swig（hexo自带）或者ejs（hexo自带）渲染数据</span><br><span class="line">op1=&gt;operation: 编译</span><br><span class="line">op2=&gt;operation: 将编译的文件推送到github</span><br><span class="line">op3=&gt;operation: github pages更新托管在github上的静态网页</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">sub=&gt;subroutine: Your Subroutine</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;op1-&gt;op2-&gt;op3-&gt;e</span><br></pre></td></tr></table></figure><!----><!----><!--![æ°æ®æµç¨å¾](http://on0hv7n2x.bkt.clouddn.com/github%20pages%20%E6%95%B0%E6%8D%AE%E6%B5%81.png)-->]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;githubPages-hexo搭建博客的原理&quot;&gt;&lt;a href=&quot;#githubPages-hexo搭建博客的原理&quot; class=&quot;headerlink&quot; title=&quot;githubPages+hexo搭建博客的原理&quot;&gt;&lt;/a&gt;gith
-      
-    
-    </summary>
-    
-      <category term="Hexo" scheme="https://sghyxp.github.io/categories/Hexo/"/>
-    
-    
-      <category term="博客" scheme="https://sghyxp.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
